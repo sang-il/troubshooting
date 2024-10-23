@@ -2,7 +2,7 @@ apiVersion : apps/v1
 kind: Deployment
 metadata:
   name: troubleshooting
-  namespace : 82022176
+  namespace : "82022176"
 spec:
   replicas: 1
   selector:
