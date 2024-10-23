@@ -13,6 +13,8 @@ spec:
       labels:
         app: troubleshooting
     spec:
+      imagePullSecrets:
+        - name: azure-storage-account-f412422964ccc4255b9af73-secret  # 시크릿 이름
       containers:
         - name: troubleshooting
           image: cepgbaseacr.azurecr.io/troubleshooting:lastest
